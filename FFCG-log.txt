@@ -1,0 +1,131 @@
+Wayne Wang
+UWNetID: wyf9686
+Student number: 1664873
+Date: Oct 11, 2019
+
+
+/usr/local/bin/python3.7 "/Users/WYF/UW/CSE/CSE415/a2-starter-code/ItrDFS.py"
+
+Welcome to ItrDFS
+Initial State:
+
+ Creatures on the Left Bank: Farmer  Fox  Chicken  Grain
+ Creatures on the Right Bank:
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=0; COUNT = 0
+OPEN is now:
+ Creatures on the Left Bank: Fox  Grain
+ Creatures on the Right Bank: Farmer  Chicken
+ boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=1; COUNT = 1
+OPEN is now:
+ Creatures on the Left Bank: Farmer  Fox  Grain
+ Creatures on the Right Bank: Chicken
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=2; COUNT = 2
+OPEN is now:
+ Creatures on the Left Bank: Grain
+ Creatures on the Right Bank: Farmer  Fox  Chicken
+ boat is on the right.
+,
+ Creatures on the Left Bank: Fox
+ Creatures on the Right Bank: Farmer  Chicken  Grain
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=3; COUNT = 3
+OPEN is now:
+ Creatures on the Left Bank: Farmer  Chicken  Grain
+ Creatures on the Right Bank: Fox
+ boat is on the left.
+,
+ Creatures on the Left Bank: Fox
+ Creatures on the Right Bank: Farmer  Chicken  Grain
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=4; COUNT = 4
+OPEN is now:
+ Creatures on the Left Bank: Chicken
+ Creatures on the Right Bank: Farmer  Fox  Grain
+ boat is on the right.
+,
+ Creatures on the Left Bank: Fox
+ Creatures on the Right Bank: Farmer  Chicken  Grain
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=5; COUNT = 5
+OPEN is now:
+ Creatures on the Left Bank: Farmer  Chicken
+ Creatures on the Right Bank: Fox  Grain
+ boat is on the left.
+,
+ Creatures on the Left Bank: Farmer  Fox  Chicken
+ Creatures on the Right Bank: Grain
+ boat is on the left.
+,
+ Creatures on the Left Bank: Fox
+ Creatures on the Right Bank: Farmer  Chicken  Grain
+ boat is on the right.
+
+len(OPEN)=3; len(CLOSED)=6; COUNT = 6
+OPEN is now:
+ Creatures on the Left Bank:
+ Creatures on the Right Bank: Farmer  Fox  Chicken  Grain
+ boat is on the right.
+,
+ Creatures on the Left Bank: Farmer  Fox  Chicken
+ Creatures on the Right Bank: Grain
+ boat is on the left.
+,
+ Creatures on the Left Bank: Fox
+ Creatures on the Right Bank: Farmer  Chicken  Grain
+ boat is on the right.
+
+len(OPEN)=3; len(CLOSED)=7; COUNT = 7
+Congratulations on successfully helping the Farmer to get his fox, chicken and grain across the river!
+Solution path:
+
+ Creatures on the Left Bank: Farmer  Fox  Chicken  Grain
+ Creatures on the Right Bank:
+ boat is on the left.
+
+
+ Creatures on the Left Bank: Fox  Grain
+ Creatures on the Right Bank: Farmer  Chicken
+ boat is on the right.
+
+
+ Creatures on the Left Bank: Farmer  Fox  Grain
+ Creatures on the Right Bank: Chicken
+ boat is on the left.
+
+
+ Creatures on the Left Bank: Grain
+ Creatures on the Right Bank: Farmer  Fox  Chicken
+ boat is on the right.
+
+
+ Creatures on the Left Bank: Farmer  Chicken  Grain
+ Creatures on the Right Bank: Fox
+ boat is on the left.
+
+
+ Creatures on the Left Bank: Chicken
+ Creatures on the Right Bank: Farmer  Fox  Grain
+ boat is on the right.
+
+
+ Creatures on the Left Bank: Farmer  Chicken
+ Creatures on the Right Bank: Fox  Grain
+ boat is on the left.
+
+
+ Creatures on the Left Bank:
+ Creatures on the Right Bank: Farmer  Fox  Chicken  Grain
+ boat is on the right.
+
+Length of solution path found: 7 edges
+7 states expanded.
+MAX_OPEN_LENGTH = 3
