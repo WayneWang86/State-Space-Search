@@ -1,7 +1,5 @@
 '''ItrDFS.py
 by Wayne Wang
-UWNetID: wyf9686
-Student number: 1664873
 Date: Oct 11, 2019
 
 Assignment 2, in CSE 415, Autumn 2019.
